@@ -19,7 +19,7 @@ public class LoginStepDefinitions {
 
 		System.setProperty("webdriver.chrome.driver", "d:/tools/selenium/chromedriver.exe");
 		driver=new ChromeDriver();
-		driver.navigate().to("http://localhost:8080/CucumberLoginDemo/");
+		driver.navigate().to("http://localhost:8080/CucumberTestProject/");
 		
 	}
 
